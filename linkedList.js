@@ -1,6 +1,3 @@
-// import './styles/main.css';
-// import './styles/reset-css.css';
-
 class LinkedList {
   constructor(value) {
     this.head = {
@@ -146,7 +143,6 @@ Names.prepend('Eric');
 Names.append('George');
 Names.append('Zach');
 Names.append('Adrian');
-
 console.log(Names.toString());
 Names.insertAt('Robert', 0);
 console.log(Names.toString());
